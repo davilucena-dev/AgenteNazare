@@ -14,6 +14,7 @@ SKILLS_DIR = os.path.expanduser("~/.agents/skills")
 # Skills externas (vazio por enquanto, mas a barra já vai contabilizar se você adicionar)
 REMOTE_SKILLS = [
     ("https://github.com/davilucena-dev/Skill-regionalizacao-mip.git", "regionalizacao-mip"),
+    ("https://github.com/davilucena-dev/Skill_estimacao-impacto-economico.git", "estimacao-impacto-economico"),
 ]
 
 def create_local_skills_with_progress(pbar):
