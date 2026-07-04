@@ -12,7 +12,9 @@ except ImportError:
 SKILLS_DIR = os.path.expanduser("~/.agents/skills")
 
 # Skills externas (vazio por enquanto, mas a barra já vai contabilizar se você adicionar)
-REMOTE_SKILLS = []
+REMOTE_SKILLS = [
+    ("https://github.com/davilucena-dev/Skill-regionalizacao-mip.git", "regionalizacao-mip"),
+]
 
 def create_local_skills_with_progress(pbar):
     """Cria as skills locais e atualiza a barra de progresso."""
