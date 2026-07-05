@@ -16,6 +16,7 @@ REMOTE_SKILLS = [
     ("https://github.com/davilucena-dev/Skill-regionalizacao-mip.git", "regionalizacao-mip"),
     ("https://github.com/davilucena-dev/Skill_estimacao-impacto-economico.git", "estimacao-impacto-economico"),
     ("https://github.com/davilucena-dev/Skill_multiplicadores-indices-ligacao.git", "multiplicadores-indices-ligacao"),
+    ("https://github.com/davilucena-dev/skill_matriz-contabilidade-social-sam.git", "matriz-contabilidade-social-sam"),
 ]
 
 def create_local_skills_with_progress(pbar):
